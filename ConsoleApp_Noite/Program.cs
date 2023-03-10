@@ -4,3 +4,7 @@ using System.Runtime.CompilerServices;
 
 Produto p1 = new Produto(1, 10.90M, "Coca-Cola");
 Console.WriteLine(p1.getDescricao()+" "+p1.getId());
+
+p1.setValor(11.85M);
+p1.setDescricao("Coca-Cola 2 litros");
+Console.WriteLine(p1.getDescricao() + " " + p1.getValor());
