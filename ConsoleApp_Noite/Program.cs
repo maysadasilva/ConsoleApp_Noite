@@ -3,4 +3,4 @@ using ConsoleApp_Noite;
 using System.Runtime.CompilerServices;
 
 Produto p1 = new Produto(1, 10.90M, "Coca-Cola");
-Console.WriteLine("");
+Console.WriteLine(p1.getDescricao()+" "+p1.getId());
