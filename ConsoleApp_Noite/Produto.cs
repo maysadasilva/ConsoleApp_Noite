@@ -17,6 +17,8 @@ namespace ConsoleApp_Noite
             Id = id;
             Descricao = descricao;
             Valor = valor;
+
+
         }
     }
 }
