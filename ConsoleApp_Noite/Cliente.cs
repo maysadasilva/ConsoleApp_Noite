@@ -34,7 +34,10 @@ namespace ConsoleApp_Noite
                 Nome = nome;
             }
         }
-
+        public void setEndereco(Endereco endereco)
+        {
+            Endereco = endereco;
+        }
         public void SetTelefone(string telefone)
         {
             Telefone = telefone;
@@ -53,6 +56,10 @@ namespace ConsoleApp_Noite
         public string getTelefone()
         {
             return Telefone;
+        }
+        public Endereco getEndereco()
+        {
+            return Endereco;
         }
 
     }

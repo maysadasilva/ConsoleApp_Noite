@@ -24,7 +24,7 @@
             Rua = rua;
         }
 
-        private void SetNumero(string numero)
+        public void SetNumero(string numero)
         {
             Numero = numero;
         }
