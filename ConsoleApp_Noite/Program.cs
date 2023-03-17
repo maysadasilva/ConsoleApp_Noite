@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using ConsoleApp_Noite;
+using ConsoleApp_Noite.Herenca;
 using System.Runtime.CompilerServices;
 
 Produto p1 = new Produto(1, 10.90M, "Coca-Cola");
@@ -19,6 +20,18 @@ Cliente c5 = new Cliente(5, "Maria", "3669869999", endereco);
 
 Console.WriteLine( c2.getEndereco().getRua() + " "+c2.getEndereco().getNumero());
 c2.getEndereco().SetNumero("135");
-Console.WriteLine(c2.getEndereco().EnderecoCompleto));
+//Console.WriteLine(c2.getEndereco().EnderecoCompleto);
 
 c2.getEndereco().EnderecoCompleto();
+
+Carro gol = new Carro();
+gol.temMotor = true;
+gol.numeroPortas = 4;
+gol.numeroAssentos = 5;
+gol.cintoSeguranca = true;
+gol.arCondicionado = true;
+
+Bike caloi = new Bike();
+caloi.temMotor = false;
+caloi.numeroPortas = 0;
+caloi.numeroAssentos = 1;
