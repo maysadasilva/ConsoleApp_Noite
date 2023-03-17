@@ -11,7 +11,7 @@ Console.WriteLine(p1.getDescricao() + " " + p1.getValor());
 
 Endereco endereco = new Endereco("Rua Mário Donega", "1222", "Campo", "54848787", "Guariba", "SP");
 
-Cliente c1 = new Cliente(1, "Gabriel", "9999998966", endereco);
+Cliente c1 = new Cliente(1, "Gabriel", "9999998966", endereco);//construtor
 Cliente c2 = new Cliente(2, "Mário", "987655636", endereco);
 Cliente c3 = new Cliente(3, "Julia", "8921646999", endereco);
 Cliente c4 = new Cliente(4, "Jóse", "556599985998", endereco);
@@ -19,4 +19,6 @@ Cliente c5 = new Cliente(5, "Maria", "3669869999", endereco);
 
 Console.WriteLine( c2.getEndereco().getRua() + " "+c2.getEndereco().getNumero());
 c2.getEndereco().SetNumero("135");
-Console.WriteLine(c2.getEndereco().getNumero());
+Console.WriteLine(c2.getEndereco().EnderecoCompleto));
+
+c2.getEndereco().EnderecoCompleto();

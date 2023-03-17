@@ -19,6 +19,39 @@
             Estado = estado;
         }
 
+        public string EnderecoCompleto()
+        {
+            return Rua+ ", "+Numero+" Bairro:"+ Bairro+" Cidade:" + Cidade + "/" + Estado+" Estado:";
+        }
+
+        public string EnderecoCurto()
+        {
+            return Rua + " " + Numero;
+
+        }
+        public Endereco BuscaPorCep(string cep)//busca o objeto
+        {
+            return new Endereco("", "", "", cep, "", ""); 
+        }
+
+        public string EstadoPorCidade(string estado)
+        {
+            if(estado== "sp")
+            {
+                return "Taquaritinga";
+            }
+            return Cidade;
+        }
+
+        public void InserirNoBanco(Endereco endereco)
+        {
+            //db.ENDERECO.ADD(endereco)
+            //db.savechanges();
+        }
+
+
+
+
         private void SetRua(string rua)
         {
             Rua = rua;
