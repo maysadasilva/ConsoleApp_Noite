@@ -29,9 +29,22 @@ gol.temMotor = true;
 gol.numeroPortas = 4;
 gol.numeroAssentos = 5;
 gol.cintoSeguranca = true;
-gol.arCondicionado = true;
+gol.arCondicionado = false;
+gol.fabricante = "VW";
 
 Bike caloi = new Bike();
 caloi.temMotor = false;
 caloi.numeroPortas = 0;
 caloi.numeroAssentos = 1;
+
+Carro Saveiro = new Carro();
+Carro Palio = new Carro();
+Carro Uno = new Carro();
+
+Saveiro.fabricante = "VW";
+Palio.fabricante = "Fiat";
+Uno.fabricante = "Fiat";
+
+Bike speed = new Bike();
+speed.temMotor = false;
+speed.numeroPortas = 0;
