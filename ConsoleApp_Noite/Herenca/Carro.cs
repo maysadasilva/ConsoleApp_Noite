@@ -15,7 +15,10 @@ namespace ConsoleApp_Noite.Herenca
             public string marcaRadio;
             public string fabricante;
 
-
+            public string ExibirMarca()//uma nova ação
+            {
+                 return "O fabricante do veiculo: " + fabricante;
+            }
 
         }
     
