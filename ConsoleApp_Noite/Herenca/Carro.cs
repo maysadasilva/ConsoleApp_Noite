@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_Noite.Herenca
 {
-    internal class Carro
-    {
-    }
+
+    
+        public class Carro: Veiculo
+        {
+            public bool cintoSeguranca;
+            public bool arCondicionado;
+            public string marcaRadio;
+            public string fabricante;
+
+
+
+        }
+    
 }

@@ -48,3 +48,6 @@ Uno.fabricante = "Fiat";
 Bike speed = new Bike();
 speed.temMotor = false;
 speed.numeroPortas = 0;
+
+Console.WriteLine(speed.ExibirDados());
+Console.WriteLine(gol.ExibirDados());

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_Noite.Herenca
 {
-    internal class Bike
+    public  class Bike : Veiculo
     {
+        public int velocidadeMaximaEmKmH;
     }
 }
