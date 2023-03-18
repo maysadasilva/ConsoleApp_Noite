@@ -16,7 +16,7 @@ namespace ConsoleApp_Noite.Herenca
         {
             if(temMotor==true)
             {
-                return "Com motor " + numeroAssentos + " " + numeroPortas;
+                return "Com motor, Assentos:" + "Número de assentos: " + numeroAssentos + " Número de Portas: " + numeroPortas;
             }
             else
             {

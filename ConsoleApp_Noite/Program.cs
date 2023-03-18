@@ -51,3 +51,31 @@ speed.numeroPortas = 0;
 
 Console.WriteLine(speed.ExibirDados());
 Console.WriteLine(gol.ExibirDados());
+
+
+
+List<Carro> listaCarros = new List<Carro>();//cria lista de carros só vai entra quem é do tipo carro
+//vetor do tipo carros
+listaCarros.Add(gol);
+listaCarros.Add(Palio);
+listaCarros.Add(Saveiro);
+listaCarros.Add(Uno);
+
+Console.WriteLine(listaCarros[0].fabricante);
+listaCarros.Remove(Palio);
+
+//Count devolve a quantidade de listas
+for(int i = 1; i < listaCarros.Count;i++)
+{
+    Console.WriteLine(listaCarros[i].ExibirDados());
+}
+
+//especializado em leitura de lista
+foreach(var item in listaCarros)
+{
+    Console.WriteLine(item.ExibirMarca());
+}
+
+
+
+
